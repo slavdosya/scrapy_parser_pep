@@ -21,3 +21,9 @@ ITEM_PIPELINES = {
 }
 
 BASE_DIR = Path(__file__).parent.parent
+
+NAME = 'pep'
+
+ALLOWED_DOMAINS = ['peps.python.org']
+
+START_URLS = ['https://peps.python.org/']
